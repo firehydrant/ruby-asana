@@ -2,7 +2,6 @@
 
 require 'support/stub_api'
 require 'support/resources_helper'
-require 'pry'
 
 RSpec.describe Asana::Resources::Tag do
   let(:api) { StubAPI.new }
@@ -23,8 +22,6 @@ RSpec.describe Asana::Resources::Tag do
     end
 
     res = tag.get_tasks_with_tag
-
-    # binding.pry
 
     expect(res).not_to be_nil
   end
