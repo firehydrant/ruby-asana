@@ -68,7 +68,7 @@ RSpec.describe Asana::Resources::AttachmentUploading do
 
     context 'without filename or mime' do
       it 'raises an error' do
-        expect { unicorn.attach() }.to raise_error(ArgumentError)
+        expect { unicorn.attach }.to raise_error(ArgumentError)
       end
     end
   end
