@@ -11,8 +11,8 @@ group :tools do
   # routinely adds new checks which can cause our build to "break" even when no
   # changes have been made. In this situation it's better to intentionally
   # upgrade Rubocop and fix issues at that time.
-  gem 'rubocop', '~> 1.47.0'
-  gem 'rubocop-rspec', '~> 2.18.1'
+  gem 'rubocop', '~> 1.48.0'
+  gem 'rubocop-rspec', '~> 2.19.0'
 
   gem 'oauth2', '~> 2.0.3'
 
